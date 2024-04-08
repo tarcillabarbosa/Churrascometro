@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Oooh Baby", cursive;
     font-weight: 400;
@@ -12,7 +23,7 @@ header {
     background-size:cover;
     background-position: center;
     color: #f12385; /* Cor do texto no banner (pode ser ajustada conforme necessário) */
-    text-align: center; /* Alinha o texto no centro do banner */
+    text-align: center; 
     padding-top: 50px; /* Espaçamento superior do texto dentro do banner */
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
 }
@@ -26,9 +37,15 @@ form {
 
   input[type="text"],
   input[type="email"],
-  input[type="number"],
-  input[type="checkbox"] {
+  input[type="number"] {
     width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="checkbox"] {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -48,6 +65,13 @@ form {
   
   button[type="submit"]:hover {
     background-color: #f12385;
+  }
+
+  .checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 450px;
+    margin: 0;
   }
   
   table {

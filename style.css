@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+body {
+    font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F3C0E2;
+    background-color: #f12385;
+}
+
+header {
+    background-image: url(headerbt.jpg);
+    background-size:cover;
+    background-position: center;
+    color: #f12385; /* Cor do texto no banner (pode ser ajustada conforme necessário) */
+    text-align: center; /* Alinha o texto no centro do banner */
+    padding-top: 50px; /* Espaçamento superior do texto dentro do banner */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+}
+
+form {
+    background-color: #ffffff2d;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button[type="submit"] {
+    display: block;
+    width: 15%;
+    padding: 10px;
+    background-color: #f12385;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #f12385;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  table th {
+    background-color: #f3c0e250;
+    color: #fff;
+  }
